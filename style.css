@@ -1,0 +1,94 @@
+#container{
+    font-family: arial, sans-serif;
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 50px;
+    background-color: green;
+    color: white;
+  }
+  .section-title{
+    border-bottom: 1px solid #ccc;
+    font-style: italic;
+  }
+  .name{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 0px;
+  }
+  .personal-info-container {
+    display: flex;
+  }
+  .personal-info-container-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .contact > p {
+    margin: 0px;
+  }
+  .email{
+  }
+  img{
+    height: 315px;
+    width: 210px;
+  }
+  .me{
+
+  }
+  .work{
+    border-bottom: 1px solid #ccc;
+  }
+  .info{
+    border-bottom: 1px solid #ccc;
+    font-style: italic;
+  }
+  .information{
+
+  }
+
+  body {
+    display: block;
+    width: 100%;
+    padding: 40px 0px;
+    margin: 0px;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("https://garden.spoonflower.com/c/10085929/p/f/l/o-pxQA8J_0XL5EHx2zEEmOpnT296yynwi6Yl08zEilQ0Z04IBwgm9ZKWTw/Half%20%26%20Half%20Hmong%20Pattern%20by%20VXM.jpg")
+  }
+.title{
+    border-bottom: 1px solid #ccc;
+    font-style: italic;
+}
+
+@media (max-width: 1100px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  img{
+    margin: auto;
+  }
+  .personal-info-container {
+    flex-direction: column;
+  }
+  .personal-info-container-text {
+    margin-left: 0px;
+  }
+}
+
+h4{
+    margin-top: -17px;
+}
+
+li{
+    margin-top: 5px;
+
+}
+
+.dates{
+    margin-top: -17px;
+}
